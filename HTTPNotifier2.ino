@@ -6,8 +6,8 @@
 #include <Ethernet.h>
 #include <Adafruit_NeoPixel.h>
 #include <avr/power.h>
-#define PIN A0
-#define BUZZER_PIN A1
+#define PIN A2
+#define BUZZER_PIN A3
 #define NUM_PIXELS 16
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_PIXELS, PIN, NEO_GRB + NEO_KHZ800);
